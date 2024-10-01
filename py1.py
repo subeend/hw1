@@ -1,8 +1,6 @@
 N = int(input())
-M=input()
-MList=[]
+M = input()
 
-for i in range(N):
-    MList.append(int(M[i]))
-    
+MList = list(map(int, M[:N]))
+
 print(sum(MList))
